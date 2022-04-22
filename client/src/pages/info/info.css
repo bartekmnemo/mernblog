@@ -1,0 +1,36 @@
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0;
+  font-family: "Lora", sans-serif;
+  background: rgb(84, 77, 204);
+  background: linear-gradient(
+    0deg,
+    rgba(84, 77, 204, 1) 0%,
+    rgba(5, 117, 212, 1) 39%,
+    rgba(4, 103, 221, 1) 90%,
+    rgba(0, 108, 255, 1) 100%
+  );
+  color: white;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desc > p {
+  font-size: 18px;
+}
+
+.listaFn {
+  width: 30%;
+  font-size: 18px;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+  line-height: 30px;
+}

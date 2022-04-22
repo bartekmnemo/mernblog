@@ -1,0 +1,141 @@
+.settings{
+  display: flex;
+}
+
+.settingsWrapper{
+  flex: 9;
+  padding: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.settingsTitle{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settingsUpdateAcc{
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-left: 50%;
+  color: orange;
+}
+
+.settingsDeleteAcc{
+  font-size: 16px;
+  color: crimson;
+  cursor: pointer;
+  margin-right: 8%;
+}
+
+.settingsForm{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+.settingsPP{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  margin: 10px 0;
+  flex: 3;
+}
+
+.settingsPP > label{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.settingsPP > img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.settingsPP span{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.settingsPP label{
+  margin-top: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  color: rgb(89, 89, 89);
+  transition: 0.17s;
+}
+
+.settingsPP label:hover {
+  color: goldenrod;
+}
+
+
+.settingsPPIcon{
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.settingsDetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 9; 
+}
+
+.settingsDetails > label {
+  font-size: 20px;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.settingsDetails > input {
+  color: gray;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  width: 80%;
+  padding: 10px;
+}
+
+.settingsDetails > input:focus{
+  border-bottom: 1px solid lightgray;
+  outline: none;
+}
+
+.settingsSubmit{
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: goldenrod;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.settingsSubmit:hover{
+  background-color: darkgoldenrod;
+}
+
+.settingsDesc{
+  font-size: 18px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 20px;
+  width: 76%;
+  margin-top: 20px;
+  color: gray;
+  height: 10vh;
+  resize: none;
+}
+
+.settingsDesc:focus{
+  outline: none;
+}

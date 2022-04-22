@@ -1,0 +1,114 @@
+.register{
+  height: calc(100vh - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapperForm{
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+  0 10px 10px rgba(0,0,0,0.22);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px; 
+}
+
+.wrapperRegister{
+  flex: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.wrapperRegisterLogin{
+  flex: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: #FF416C;
+	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	color: #FFFFFF;
+}
+
+.registerForm {
+  text-align: center;
+  padding: 50px;
+  
+}
+
+.registerLoginForm{
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+	font-weight: bold;
+	margin: 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.registerButton {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.registerLoginButton{
+  border-radius: 20px;
+	border: 1px solid white;
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.registerLoginForm p:nth-last-child(2){
+  font-size: 14px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 80%;
+  border-radius: 20px;
+  outline: none;
+}

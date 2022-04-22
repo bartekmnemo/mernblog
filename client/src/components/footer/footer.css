@@ -1,0 +1,28 @@
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+  font-family: "Lora", sans-serif;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.footer-basic .social i {
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  color: #888;
+  font-size: 18px;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.footer-basic .copyright {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
